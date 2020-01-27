@@ -1,0 +1,27 @@
+[bool] a,c,s=true;
+
+[void] pythagoreanTriplets()
+{
+  
+     [int] a, b, c = 0;
+  
+  
+   [int] m = 2;
+ 
+    while (c < 100000000) {
+  
+         for ( n = 1; n < m; ++n) {
+  
+            a = m * m - n * n;
+            b = 2 * m * n;
+            c = m * m + n * n;
+  
+            if (c >100000000 )
+                    break;
+
+               
+            cout (a, b, c);
+        }
+        m++;
+    }
+}
